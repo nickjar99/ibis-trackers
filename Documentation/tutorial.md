@@ -154,7 +154,7 @@ To copy the firmware, simply copy and paste the bootloader file above to the “
 
 To copy the firmware, simply copy and paste the bootloader file above to the “NiceNano” drive that appears in your computer. It should look like a USB Drive.
 
-(nicenano-pc.jpg)
+(nicenano-pc.png)
 
 Your SuperMini will reset, and the drive will disappear. If you see it in the Terminal, it most likely worked. It may appear like a “Feather” device in your Serial Terminal.
 

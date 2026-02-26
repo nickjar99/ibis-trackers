@@ -154,17 +154,15 @@ To copy the firmware, simply copy and paste the bootloader file above to the “
 
 To copy the firmware, simply copy and paste the bootloader file above to the “NiceNano” drive that appears in your computer. It should look like a USB Drive.
 
-<img src="../Images/process/nicenano-pc.jpg" width="400">
+<img src="../Images/process/nicenano-pc.png" width="400">
 
 Your SuperMini will reset, and the drive will disappear. If you see it in the Terminal, it most likely worked. It may appear like a “Feather” device in your Serial Terminal.
 
 <img src="../Images/process/serial-terminal-feather.png" width="400">
 <sub>Updated Bootloader. Non-updated will look the same, or may have a different name.</sub>
-[Updated Bootloader. Non-updated will look the same, or may have a different name.]
 
 <img src="../Images/process/serial-terminal-nicenano.png" width="400">
 <sub>A SuperMini in “DFU” mode, ready to be flashed with firmware</sub>
-[A SuperMini in “DFU” mode, ready to be flashed with firmware]
 
 Next, we need to flash the SlimeVR Tracker Firmware.
 
@@ -193,17 +191,15 @@ Great! That’s enough for us to continue to the next stage.
 
 There are a few points I prefer to pre-solder to make life easier for us later. Fill the following pins with solder. We’re adding solder to the battery connectors, button contacts, and the antenna for the antenna mod (right side only!)
 
-<img src="../Images/process/supermini-solder-points" width="400">
-<sub>Solder these points</sub>
-[Solder these points]
+<img src="../Images/process/supermini-solder-points.jpg" width="400">
+<sub>Solder these points.</sub>
 
-<img src="../Images/process/SuperMini soldered points" width="400">
+<img src="../Images/process/supermini-solder-points.jpg" width="400">
 <sub>Pre-Soldered SuperMini. 006, GND, B+, GND (right side) and the right side of the C3 antenna.</sub>
-[Pre-Soldered SuperMini. 006, GND, B+, GND (right side) and the right side of the C3 antenna.]
 
 Lastly, we want to pre-solder the button.
 
-<img src="../Images/process/supermini-button-soldered" width="400">
+<img src="../Images/process/supermini-button.jpg" width="400">
 
 #### Assembly
 
@@ -215,17 +211,14 @@ Flip the SuperMini upside down with the IMU inserted into the correct pins, and 
 
 <img src="../Images/process/back side supermini pins up" width="400">
 <sub>SuperMini with IMU pins that need to be snipped</sub>
-[SuperMini with IMU pins that need to be snipped]
 
 <img src="../Images/process/back side pins snipped" width="400">
 <sub>Pins have now been snipped!</sub>
-[Pins have now been snipped!]
 
 Solder the pins from the back, and clean off any excess Flux from your solder job.
 
 <img src="../Images/process/supermini back soldered" width="400">
 <sub>SuperMini with pins soldered from the back for the IMU.</sub>
-[SuperMini with pins soldered from the back for the IMU.]
 
 <img src="../Images/process/supermini soldered top" width="400">
 
@@ -237,7 +230,6 @@ Before we do the final assembly steps, you’ll want to connect the tracker to y
 
 <img src="../Images/process/serial terminal info with imu" width="400">
 <sub>IMU will show as the model if it is detected.</sub>
-[IMU will show as the model if it is detected.]
 
 If your terminal is being spammed with yellow warnings, type “Reboot” and this should hopefully clear it. If no IMU is detected, you may need to go back and check your soldering connections and try again.
 
@@ -261,11 +253,9 @@ Fold the pin down so it’s touching the IMU, then snip the top.
 
 <img src="../Images/process/supermini right side bent pin" width="400">
 <sub>Bent the pin towards the IMU</sub>
-[Bent the pin towards the IMU]
 
 <img src="../Images/process/snipped pin" width="400">
 <sub>Snipped pin</sub>
-[Snipped pin]
 
 Solder the connection, and be sure to clean off any flux.
 
