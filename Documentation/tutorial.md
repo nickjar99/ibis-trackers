@@ -123,7 +123,14 @@ As with the IMU, you’ll want to shave off the excess from the sides of the uni
 
 Before we start soldering, it’s best to ensure that the SuperMini actually works. Connect it via USB to your PC, and open the Serial Terminal in nRF Connect for Desktop app. The first sign of a good board is that it should be blinking like the following:
 
-(video of SuperMini idle)
+()
+<video width="320" height="240" controls>
+  <source src="../Images/process/supermini-dfu.mov" type="video/mp4">
+  <sub>Video of SuperMini idle</sub>
+</video>
+
+
+[Video of SuperMini idle](../Images/process/supermini-dfu.mov)
 
 Next, we need to short the RST button to the GND pin. Alternatively, you can act as ground and use something metal to short the RST pin like this:
 
