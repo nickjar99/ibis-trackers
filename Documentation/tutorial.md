@@ -124,6 +124,10 @@ As with the IMU, you’ll want to shave off the excess from the sides of the uni
 Before we start soldering, it’s best to ensure that the SuperMini actually works. Connect it via USB to your PC, and open the Serial Terminal in nRF Connect for Desktop app. The first sign of a good board is that it should be blinking like the following:
 
 
+[![Video Title](../Images/IbisTracker.jpg)](https://www.youtube.com/watch?v=nlxK9ISl_DQ&t=1s)
+
+[![Video Title](../Images/IbisTracker.jpg)](../Images/process/supermini-idle.mov)
+
 
 <video width="320" height="240" controls>
   <source src="../Images/process/supermini-dfu.mov" type="video/mp4">
